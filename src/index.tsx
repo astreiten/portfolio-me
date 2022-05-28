@@ -5,7 +5,7 @@ import * as ReactDOMClient from "react-dom/client";
 let root: ReactDOMClient.Root;
 
 //@ts-ignore
-window.renderMe = (containerId, history) => {
+window.renderMe = (containerId) => {
   const container = document.getElementById(containerId);
   //@ts-ignore
   root = ReactDOMClient.createRoot(container);
